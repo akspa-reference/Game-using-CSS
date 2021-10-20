@@ -1,0 +1,68 @@
+.container {
+  margin: 0 auto;
+  height: 640px;
+  width: 1300px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}
+
+.container div {
+  display: inline-block;
+  background-color: red;
+  margin: 285px 70px;
+  justify-content: space-evenly;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+#player {
+  background-color: blue;
+}
+#enemy1 {
+  animation: move 4s infinite linear;
+}
+#enemy2 {
+  animation: move 3.5s infinite linear;
+}
+#enemy3 {
+  animation: move 3s infinite linear;
+}
+#enemy4 {
+  animation: move 2.5s infinite linear;
+}
+#enemy5 {
+  animation: move 2s infinite linear;
+}
+
+#player {
+  margin-left: 45px;
+  animation-name: click;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  animation-timing-function: linear;
+  animation-duration: 10s;
+}
+div:active #player {
+  animation-name: click;
+  animation-play-state: running;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(250px);
+  }
+  50% {
+    transform: translateY(-250px);
+  }
+  100% {
+    transform: translateY(250px);
+  }
+}
+
+@keyframes click {
+  50% {
+    transform: translate(1150px);
+  }
+}
