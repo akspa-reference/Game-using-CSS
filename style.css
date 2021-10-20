@@ -3,6 +3,7 @@ body{
 }
 
 .container {
+  color: white;
   margin: 0 auto;
   margin-top: 20px;
   height: 640px;
