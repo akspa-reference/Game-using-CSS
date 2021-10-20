@@ -72,3 +72,7 @@ div:active #player {
     transform: translate(1150px);
   }
 }
+
+footer{
+  font-weight: bold;
+}
