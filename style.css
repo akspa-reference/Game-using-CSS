@@ -3,7 +3,7 @@ body{
 }
 
 .container {
-  margin: 50px auto;
+  margin: 100px auto;
   height: 640px;
   width: 1300px;
   cursor: pointer;
