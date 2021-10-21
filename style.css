@@ -1,6 +1,9 @@
 body{
   background-color: #f7ff03;
-  color: #26ff00;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+               -1px -1px 0 #000;
 }
 
 .container {
