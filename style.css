@@ -1,10 +1,8 @@
 body{
   background-color: #f7ff03;
-  color: white;
 }
 
 .container {
-  display: inline-block;
   color: white;
   margin: 0 auto;
   margin-top: 20px;
@@ -76,6 +74,7 @@ div:active #player {
 }
 
 footer{
-  font-size: 20px;
+  text-align: center;
+  font-size: 30px;
   font-weight: bold;
 }
